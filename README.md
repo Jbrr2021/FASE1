@@ -46,8 +46,6 @@ O código fornecido simula a queda de um objeto com resistência do ar usando o 
 •	Também é criado um DataFrame (df) para armazenar os valores de tempo e altura.
 •	Ao final da simulação, é gerado um gráfico mostrando a posição do objeto ao longo do tempo.
 5.	Fator Aleatório:
-•	Para atender aos requisitos do projeto, é necessário modificar a geração de valores de H, m e k usando a função random.uniform() para obter valores aleatórios a cada execução do código. Essa modificação garante que cada simulação utilize parâmetros distintos.
-6.	Geração do PDF:
-•	Para a entrega da fase, será necessário salvar os resultados (gráfico e dados tabulares) em um arquivo PDF.
-Durante a execução do código, os valores de tempo, altura e gráfico são exibidos no console ou na interface de desenvolvimento utilizada.
-"
+•	Para atender aos requisitos do projeto, é necessário modificar a geração de valores de H, m e k usando a função random.uniform() para obter valores aleatórios a cada execução do código. Essa modificação garante que cada simulação utilize parâmetros distintos."
+![image](https://github.com/Jbrr2021/FASE1/assets/87319898/26021488-a768-4e99-a01c-d6c0ca6cb347)
+
