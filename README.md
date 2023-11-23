@@ -42,5 +42,5 @@ O código fornecido simula a queda de um objeto com resistência do ar usando o 
 5.	Fator Aleatório:
 •	Para atender aos requisitos do projeto, é necessário modificar a geração de valores de H, m e k usando a função random.uniform() para obter valores aleatórios a cada execução do código. Essa modificação garante que cada simulação utilize parâmetros distintos.
 
-![image](https://github.com/Jbrr2021/FASE1/assets/87319898/26021488-a768-4e99-a01c-d6c0ca6cb347)
 
+![Figure_1](https://github.com/Jbrr2021/FASE1/assets/87319898/b11fe34b-b4c9-4864-b365-9bc9e5b0c48d)
