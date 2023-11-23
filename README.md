@@ -1,8 +1,8 @@
 # FASE1
-" CURSO: ENGENHARIA DA COMUTAÇÃO 
- PROJETO: PROJETO PARA DINÂMICA DE FLUIDOS
- NOME: JOÃO BATISTA RODRIGUES RIBEIRO
- MATRÍCULA:23308335
+# CURSO: ENGENHARIA DA COMUTAÇÃO 
+# PROJETO: PROJETO PARA DINÂMICA DE FLUIDOS
+# NOME: JOÃO BATISTA RODRIGUES RIBEIRO
+# MATRÍCULA:23308335
 
 ENTREGA DA FASE 1.
 
@@ -40,7 +40,7 @@ O código fornecido simula a queda de um objeto com resistência do ar usando o 
 •	Também é criado um DataFrame (df) para armazenar os valores de tempo e altura.
 •	Ao final da simulação, é gerado um gráfico mostrando a posição do objeto ao longo do tempo.
 5.	Fator Aleatório:
-•	Para atender aos requisitos do projeto, é necessário modificar a geração de valores de H, m e k usando a função random.uniform() para obter valores aleatórios a cada execução do código. Essa modificação garante que cada simulação utilize parâmetros distintos."
+•	Para atender aos requisitos do projeto, é necessário modificar a geração de valores de H, m e k usando a função random.uniform() para obter valores aleatórios a cada execução do código. Essa modificação garante que cada simulação utilize parâmetros distintos.
 
 ![image](https://github.com/Jbrr2021/FASE1/assets/87319898/26021488-a768-4e99-a01c-d6c0ca6cb347)
 
