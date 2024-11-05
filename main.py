@@ -23,23 +23,34 @@ while X > 0:
     posicoes.append(X)
     tempos.append(tempos[-1] + delta_t)
 
-    # Exibir o tempo e a altura a cada período de tempo
-    print(f"Tempo: {tempos[-1]:.2f} s - Altura: {X:.2f} m")
+# Exibir o tempo total para atingir o solo
+tempo_total = tempos[-1]
+tempo_total_minutos = tempo_total / 60  # Converter para minutos
+print(f"Tempo total para atingir o solo: {tempo_total:.2f} segundos ({tempo_total_minutos:.2f} minutos)")
 
-    #Criar um DataFrame com os valores de tempo e altura
-    data = {'Tempo (s)': tempos, 'Altura (m)': posicoes}
-    df = pd.DataFrame(data)
-    # Exibir a tabela com os valores de tempo e altura
-    print(df)
+# Criar um DataFrame com os valores de tempo e altura
+data = {'Tempo (s)': tempos, 'Altura (m)': posicoes}
+df = pd.DataFrame(data)
 
 # Gerar o gráfico
-plt.figure(figsize=(8, 6))
-plt.plot(tempos, posicoes)
+plt.figure(figsize=(10, 6))
+plt.plot(tempos, posicoes, label='Posição vs. Tempo')
 plt.title('Posição do Objeto ao Longo do Tempo')
 plt.xlabel('Tempo (s)')
 plt.ylabel('Posição (m)')
 plt.grid(True)
+
+# Adicionar anotação para mostrar o tempo total em minutos no gráfico
+plt.annotate(f'Tempo total: {tempo_total_minutos:.2f} minutos',
+             xy=(tempos[-1], posicoes[-1]), xytext=(tempos[-1] / 2, H / 2),
+             arrowprops=dict(arrowstyle='->', color='red'),
+             fontsize=12, color='red')
+
+# Mostrar o gráfico
+plt.legend()
 plt.show()
+
+
 
 
 
